@@ -16,3 +16,4 @@ module RubyAlgorithm
       super
     end
   end
+end
