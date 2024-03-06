@@ -1,6 +1,3 @@
-require 'bundler/setup'
-require 'ruby_algorithm'
-
 i = 0
 while i < input.length - 1
   j = 0
@@ -14,5 +11,3 @@ while i < input.length - 1
   end
   i += 1
 end
-
-

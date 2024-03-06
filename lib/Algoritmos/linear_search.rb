@@ -1,6 +1,3 @@
-require 'bundler/setup'
-require 'ruby_algorithm'
-
 # ##########Linear search###########
 
 # def linear_search(array, key)

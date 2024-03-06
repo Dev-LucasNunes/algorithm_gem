@@ -1,6 +1,3 @@
-require 'bundler/setup'
-require 'ruby_algorithm'
-
 def closest_date(dates, queries)
   # Ordena o array de datas em ordem crescente, comparando primeiro o ano, depois o mês e finalmente o dia
   sorted_dates = dates.sort_by { |date| date.split('/').map(&:to_i) }

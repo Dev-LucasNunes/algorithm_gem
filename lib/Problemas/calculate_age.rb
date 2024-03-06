@@ -1,6 +1,3 @@
-require 'bundler/setup'
-require 'ruby_algorithm'
-
 def find_age(current_date, current_month, current_year, birth_date, birth_month, birth_year)
   month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 

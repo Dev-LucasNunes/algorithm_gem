@@ -1,7 +1,3 @@
-require 'bundler/setup'
-require 'ruby_algorithm'
-
-
 def reverse_array(arr, k)
   new_array = arr.rotate(-k)
   puts new_array

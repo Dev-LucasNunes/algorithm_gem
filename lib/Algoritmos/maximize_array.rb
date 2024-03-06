@@ -1,6 +1,3 @@
-require 'bundler/setup'
-require 'ruby_algorithm'
-
 ##jeito sem usar metodos ruby###
 
 def maximize_array(arr, k)

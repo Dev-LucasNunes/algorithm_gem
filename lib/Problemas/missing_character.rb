@@ -1,6 +1,3 @@
-require 'bundler/setup'
-require 'ruby_algorithm'
-
 def missing_character(phrase)
   phrase_array = phrase.downcase.chars
   alphabet = ('a'..'z').to_a

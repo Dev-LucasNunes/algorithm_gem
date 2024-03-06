@@ -1,6 +1,3 @@
-require 'bundler/setup'
-require 'ruby_algorithm'
-
 def binary_search(array, target)
   low = array.length - array.length
   high = array.length - 1
