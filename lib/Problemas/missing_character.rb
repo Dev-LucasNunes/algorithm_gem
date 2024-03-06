@@ -5,7 +5,7 @@ def missing_character(phrase)
   puts pangram
 end
 
-posso usar o include? também para ver se está presente no array
+# posso usar o include? também para ver se está presente no array
 
 # phrase = "The Quick brown FOX Jumps"
 # missing_character(phrase)
