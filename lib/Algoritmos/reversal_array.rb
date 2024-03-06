@@ -1,6 +1,6 @@
 def reverse_array(arr, k)
   new_array = arr.rotate(-k)
-  puts new_array
+  new_array
 end
 
 # input = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
