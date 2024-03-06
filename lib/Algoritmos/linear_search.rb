@@ -28,7 +28,7 @@ def linear_search(arr, key)
   return "No match found"
 end
 
-arr = [10, 50, 30, 70, 80, 20, 90, 40]
-key = 30
-result = linear_search(arr, key)
-puts "Index of #{key}: #{result}"
+# arr = [10, 50, 30, 70, 80, 20, 90, 40]
+# key = 30
+# result = linear_search(arr, key)
+# puts "Index of #{key}: #{result}"
