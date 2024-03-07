@@ -1,44 +1,21 @@
-##jeito sem usar metodos ruby###
-
 def maximize_array(arr, k)
-  sum = 0
-  sum_negative = 0
-  result = 0
+  n = arr.length
 
-    arr.each do |nbr|
-      if nbr.negative?
-        positive = nbr * -1
-        sum_negative += positive
-      else
-      sum += nbr
+  (1..k).each do |_|
+    min = +2147483647
+    index = -1
+
+    arr.each_with_index do |val, j|
+      if val < min
+        min = val
+        index = j
       end
-      result = sum + sum_negative
     end
-  puts result
+
+    break if min == 0
+
+    arr[index] = -arr[index]
+  end
+
+  arr.sum
 end
-# arr = [-2, 0, 5, -1, 2]
-# k = 4
-
-# maximize_array(arr, k)
-
-
-###com metodos ruby###
-
-# def maximum_sum(arr, k)
-#   n = arr.length
-
-#   (1..k).each do |_|
-#     min = arr.min
-#     index = arr.index(min)
-#     break if min == 0
-#     arr[index] = -arr[index]
-#   end
-
-#   sum = arr.sum
-#   return sum
-# end
-
-# arr = [9, 8, 8, 5]
-# k = 2
-# resultado = maximize_array(arr, k)
-# puts resultado

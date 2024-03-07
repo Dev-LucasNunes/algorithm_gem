@@ -18,11 +18,3 @@ def count(string)
   return count_uppercase, count_lowercase, count_numeric, count_especial
 end
 
-
-
-# result = count("*GeeKs01fOr@gEEks07")
-# count_uppercase, count_lowercase, count_numeric, count_especial = result
-# puts "Upper case letters #{count_uppercase}"
-# puts "Lower case letters #{count_lowercase}"
-# puts "Numbers #{count_numeric}"
-# puts "Special Characters #{count_especial}"
