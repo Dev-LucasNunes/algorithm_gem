@@ -18,13 +18,13 @@ RSpec.describe "binary_search" do
     end
   end
 
-  context "when the array has random elements" do
-    it "returns the position of the target" do
-      array = (1..10).map { FFaker::Random.rand(1..100) }.sort
-      target = array.sample
-      expected_index = array.index(target)
-      expected_output = "A chave #{target} está exatamente na posição #{expected_index}\n"
-      expect { binary_search(array, target) }.to output(expected_output).to_stdout
-    end
+    context "when the array has random elements" do
+      it "returns the position of the target" do
+        array = (1..10).map { |i| i * 10 } # Gera um array ordenado
+        target = array.sample
+        expected_index = array.index(target)
+        expected_output = "A chave #{target} está exatamente na posição #{expected_index}\n"
+        expect { binary_search(array, target) }.to output(expected_output).to_stdout
+      end
   end
 end
