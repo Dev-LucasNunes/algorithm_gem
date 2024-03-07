@@ -16,5 +16,5 @@ def find_age(current_date, current_month, current_year, birth_date, birth_month,
   calculated_year = current_year - birth_year
 
   puts "Present Age\nYears: #{calculated_year}  Months: #{calculated_month}  Days: #{calculated_date}"
-  return calculated_date, calculated_month, calculated_year
+  return calculated_year, calculated_month, calculated_date
 end

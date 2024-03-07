@@ -10,6 +10,7 @@ RSpec.describe "find_age" do
     birth_month = 7
     birth_year = 1996
 
-    expect { find_age(current_date, current_month, current_year, birth_date, birth_month, birth_year) }.to output("Present Age\nYears: #{calculated_year}  Months: #{calculated_month}  Days: #{calculated_date}").to_stdout
+    result = find_age(current_date, current_month, current_year, birth_date, birth_month, birth_year)
+    expect(result).to eq([21, 0, 3])
   end
 end
