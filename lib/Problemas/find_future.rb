@@ -38,13 +38,3 @@ def next_closest_date(arr, q)
   ind == -1 ? "-1" : arr[ind]
 end
 
-#  def find_future(arr, q)
-#   q.each do |query|
-#      puts next_closest_date(arr, query)
-#   end
-#  end
-
-#  arr = ["22/4/1233", "1/3/633", "23/5/56645", "4/12/233"]
-#  q = ["23/3/4345", "4/4/34234234", "12/3/2"]
-
-#  find_age(arr, q)
